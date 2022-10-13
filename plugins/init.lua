@@ -17,6 +17,11 @@ return {
       require "custom.plugins.lspconfig"
     end
   },
+  ["jose-elias-alvarez/null-ls.nvim"] = {
+    config = function()
+      require "custom.plugins.null-ls"
+    end
+  },
   ["williamboman/mason.nvim"] = {
     override_options = overrides.mason,
   },
